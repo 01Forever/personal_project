@@ -1,0 +1,60 @@
+@charset "UTF-8";
+header div ul {
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h2 {
+	color:orange;
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+    width: 600px;
+}
+
+form ul {
+	list-style-type: none;
+	padding: 0 174px;
+	color: coral;
+}
+
+form ul li {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.large {
+	width: 275px;
+    height: 42px;
+    margin: 9px 0px;
+}
+
+.gender {
+	margin: 20px 0;
+}
+
+.gender label {
+	color: #333;
+	font-weight: normal;
+}
+
+.gender input {
+	margin: 8px;
+}
+
+.button li {
+	padding-left: 22px;
+}
+
+.button input {
+	border: 1px solid orange;
+    width: 230px;
+    height: 44px;
+    background: #f9d452;
+    color: #796f6f;
+    font-weight: bold;
+    font-size: 14px;
+}

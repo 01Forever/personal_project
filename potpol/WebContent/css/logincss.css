@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+header div ul {
+		margin-top: 15px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	section {
+		padding: 52px 0;
+	}
+	
+	h2 {
+		color:orange;
+		text-align: center;
+	}
+	
+	.log {
+	    margin: 0 auto;
+	    width: 600px;
+	    border-bottom: 0.5px solid rgba(249, 193, 108, 0.8);
+	}
+	
+	.findframe {
+	 	margin: 0 auto;
+	    width: 600px;
+	}
+	
+	.findframe:after {
+	 	content: " ";
+		display: block;
+		width: 0px;
+		height: 0px;
+		clear: both;
+	}
+	
+	label input {
+		width: 200px;
+		height: 30px;
+	}
+	
+	
+	form {
+		text-align: center;
+	}
+	
+	form ul {
+		list-style-type: none;
+		padding: 0;
+		margin-bottom: 25px;
+	}
+	
+	form ul li {
+		margin: 10px 0;
+	}
+	
+	.subm {
+	    background:#f6d554;
+	    color: #fb7400;
+	    border: 1px solid #f6d553;
+	    width: 175px;
+	    height: 35px;
+	}
+	
+	.id:hover {
+		border: 1px solid orange;
+	}

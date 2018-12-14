@@ -1,0 +1,83 @@
+@charset "UTF-8";
+header div ul {
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h2 {
+	color:orange;
+	text-align: center;
+}
+
+section {
+	padding-top: 36px;
+}
+
+.totalform {
+	margin: 0 auto;
+    width: 600px;
+}
+
+
+.totalform ul {
+	list-style-type: none;
+	margin-bottom: 30px;
+}
+
+.totalform ul li div {
+	border: 1px solid orange;
+	height: 70px;
+    padding: 0 9px;
+    margin: 10px 25px;
+    overflow: scroll;
+}
+
+.essential {
+	color:orange;
+}
+
+.choice {
+	color: gray;
+}
+
+.float-button {
+	text-align: center;
+}
+
+.float-button:after {
+	content: " ";
+	display: block;
+	width: 0px;
+	height: 0px;
+	clear: both;
+}
+
+.float-button ul {
+	display: inline-block;
+   	padding: 0;
+}
+
+.float-button a, .float-button a:visited {
+	color: coral;
+	text-decoration: none;
+}
+
+.float-button a:hover, a.float-button a:focus {
+	color: orange;
+}
+
+.float-button button {
+	border: 1px solid orange;
+    background: white;
+    color: coral;
+    width: 157px;
+    height: 51px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.float-button li {
+	float: left;
+	margin: 0 17px;
+}

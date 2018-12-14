@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+body {
+	background: url('../img/web.png') no-repeat center top;
+	border: 5px solid rgba(249, 212, 82, 0.8);
+}
+
+header {
+	width: auto;
+	height: 250px;
+	border-bottom: 1px solid #f9d356;
+}
+
+
+header div ul {
+	float: right;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px 1em;
+	height: 170px;
+}
+
+header div:after, nav:after, section:after, .cont:after{
+	content: " ";
+	display: block;
+	width: 0px;
+	height: 0px;
+	clear: both;
+}
+
+header div ul li {
+	margin: 0px 5px;
+	float: left;
+}
+
+header div ul li a, header div ul li a:visited {
+	color: #f9d356;
+	text-decoration: none;
+}
+
+header div ul li a:hover, a:focus {
+	color: orange;
+}
+
+nav {
+	margin: 0 auto;
+   	width: 1080px;	
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+   	width: auto;
+   	height: 3em;
+   	overflow: hidden;
+   	margin: 0px;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a, nav ul li a:visited {
+	display: block;
+	color : orange;
+	text-align: center;
+	text-decoration: none;
+	padding: 1em 0.8em;
+}
+
+nav ul li a:hover, a:focus {
+	font-weight: bold;
+}
+
+section {
+	margin: 5px auto;
+   	padding: 8px;
+   	width: 1080px;
+   	text-align: left;
+   	border: 2px solid rgba(249, 212, 82, 0.8);
+}
+
+section > div {
+	border: 2px solid rgba(249, 212, 82, 0.8);
+	float: left;
+   	width: 740px;
+   	
+}
+
+.imgframe {height: 356px;}
+
+.textframe {
+	float: left;
+	width: 350px;
+	height: 500px;
+	border: 1px solid #f9d356;
+	margin: 3px 9px 12px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.textframe > h2 {color: orange; text-decoration: underline; margin: 10px 0;}
+
+.textframe > p {color: #555;}
+
+li > img {max-width: 300px; max-height: 300px;}
+
+.bx-wrapper {
+	height: 318px;
+	width: 300px;
+	border: 1px solid rgba(249, 212, 82, 0.8);
+	background-color:#f9d356;
+	margin: 7px auto;
+}
+
+aside {
+	border: 2px solid rgba(249, 212, 82, 0.8);
+	float: right;
+   	width: 324px;
+   	display: block;
+   	text-align: center;
+}
+
+.login {
+	width: 210px;
+    height: 30px;
+    background: #f9d356;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px 53px;
+    padding: 10px;
+}
+
+.login a, .login a:visited {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	top: 50%;
+}
+
+.login a:hover, a:focus {color : orange;}
+
+aside h3 {color: orange;}
+
+.find {
+	display: inline-block;
+	float: left;
+}
+
+.find ul {
+	display: inline-block;
+	padding: 0 10px;
+	list-style-type: none;
+}
+
+.find ul li {
+	float: left;
+	padding: 0 3px;
+}
+
+.find ul li a, .find a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+.find ul li a:hover, .find ul li a:focus, .cont:hover, .cont:focus {
+	text-decoration: underline;
+}
+
+.cont {
+	float: right;
+	padding: 0 10px;
+   	text-decoration: none;
+   	color: gray;
+   	margin: 16px 5px;
+}
+
+
+footer {
+	clear: both;
+	background: rgba(249, 212, 82, 0.8);
+	height: 150px;
+	text-align: center;
+}
+
+footer p {
+	padding: 30px;
+	color: gray;
+}
+footer p a, footer p a:visited {
+	text-decoration: none;
+	color: orange;
+}
+
+footer p a:hover, a:focus {color: gray;}
